@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>benjamin.co.nz</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <style>
+        /* Flash bang prevention */
+        body{
+            background-color: black;
+        }
+
+        .hide{
+            transform: scale(50%, 0%);
+            opacity: 0%;
+        }
+    </style>
+
+
+    <div class="page">
+
+        <h1>benjamin.co.nz</h1>
+
+        <div class="hero">
+
+            <div class="hero-image">
+                <img id="pixelImg" class="hide" src="./assets/index/pixelImg.png">
+                <img id="photoImg" class="hide" src="./assets/index/photoImg.png">
+                <img id="paintImg" class="hide" src="./assets/mpg/lobby.jpg">
+                <!-- <img id="threedeeImg" class="hide" src=""> -->
+                <img id="contactImg" class="hide" src="./assets/index/contact.jpg">
+            </div>
+
+            <div class="right">
+                <a id="pixelHover" href="./pixel.html">Pixel</a> <br>
+                <a id="photoHover" href="./photo.html" >Photo</a> <br>
+                <a id="paintHover" href="./paint.html">Paint</a> <br>
+                <!-- <a id="threedeeImg" href="./3d.html">3D</a> <br> -->
+                <a href="./about.html">About Me</a> <br>
+                <a id="contactHover" href="./contact.html">Contact</a> <br>
+            </div>
+        </div>
+
+
+        <script>
+            // Pixel
+            const pixelImg = document.getElementById("pixelImg");
+            const pixelHover = document.getElementById("pixelHover");
+
+            pixelHover.addEventListener('mouseover', () => {
+                pixelImg.classList.remove('hide');
+            });
+
+            pixelHover.addEventListener('mouseout', () => {
+                pixelImg.classList.add('hide');
+            });
+
+            // Photo
+            const photoImg = document.getElementById("photoImg");
+            const photoHover = document.getElementById("photoHover");
+
+            photoHover.addEventListener('mouseover', () => {
+                photoImg.classList.remove('hide');
+            });
+
+            photoHover.addEventListener('mouseout', () => {
+                photoImg.classList.add('hide');
+            });
+
+            // Paint
+            const paintImg = document.getElementById("paintImg");
+            const paintHover = document.getElementById("paintHover");
+
+            paintHover.addEventListener('mouseover', () => {
+                paintImg.classList.remove('hide');
+            });
+
+            paintHover.addEventListener('mouseout', () => {
+                paintImg.classList.add('hide');
+            });
+
+            // 3D
+            // const threedeeImg = document.getElementById("3dImg");
+            // const threedeeHover = document.getElementById("3dHover");
+
+            // threedeeImg.addEventListener('mouseover', () => {
+            //     threedeeImg.classList.remove('hide');
+            // });
+
+            // threedeeImg.addEventListener('mouseout', () => {
+            //     threedeeImg.classList.add('hide');
+            // });
+
+            // Contact
+            const contactImg = document.getElementById("contactImg");
+            const contactHover = document.getElementById("3dHover");
+
+            contactImg.addEventListener('mouseover', () => {
+                contactImg.classList.remove('hide');
+            });
+
+            contactImg.addEventListener('mouseout', () => {
+                contactImg.classList.add('hide');
+            });
+        </script>
+
+
+    </div>
+
+</body>
+</html>
