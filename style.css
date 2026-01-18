@@ -1,5 +1,5 @@
 body{
-    margin: 0%;
+    margin-top: 0%;
 
     background-color: rgb(0, 0, 0);
     color: #fafafa;
@@ -22,27 +22,52 @@ a::selection {
 }
 
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+    to left,
+    #00000000 0% 50%,
+    #ffffff40 50%
+  );
+}
+
+
 a {
     color: #ffffff;
     text-decoration: none;
+}
+p a{
+    font-weight: bold;
 }
 a:hover{
     color: #000000;
     background: #ffffff;;
 }
 
-
-h1{
-    padding-top: 200px;
-    padding-left: 23.5%;
-    max-width: 50%;
-
-    font-size: 125px;
-    margin-bottom: 0px;
+a:focus { /* selecting via tab key*/
+  outline: 1.5px solid #ffffff; 
 }
 
 
-.right{
+h1{
+    font-size: 13.5cqw;
+    margin: 0px;
+    font-weight: normal;
+}
+
+
+.page{
+    max-width: 800px;
+    margin: auto;
+    height: 100vh;
+    /* background-color: blue; */
+}
+
+
+/* .right{
     padding-top: 250px;
     padding-right: 30%;
     width: 26%;
@@ -59,36 +84,47 @@ h1{
     width: 50%;
 
     font-size: 25px;
-}
-
-p a{
-    font-weight: bold;
-}
-
+} */
 
 
 
 
 .hero{
+    padding-top: 10%;
+}
+
+.hero-flexbox{
     display: flex;
+    flex-wrap: wrap;
+    /* background-color: rgb(146, 146, 91); */
 }
 
+
+.hero-1{
+    width: 650px;
+    height: 100%;
+    /* background-color: lime; */
+
+    margin: 0px auto;
+}
+
+.hero-header{
+    width: 100%;
+    container-type: inline-size;
+}
 .hero-image{
-    padding-left: 23.5%;
-    width: 2500px;
-    
-    position:relative;
+    width: 100%;
+    /* position:relative; */
 }
+
 .hero-image img{
-    /* width: 100%; */
+    width: 100%;
+    /* position: absolute; */
 
-    width: 935px;
-    position: absolute;
-    transition:
-    transform 0.3s cubic-bezier(.29,0,0,1),
-    opacity 0.3s;
+    /* transition:
+        transform 0.3s cubic-bezier(.29,0,0,1),
+        opacity 0.3s; */
 }
-
 
 .hide{
     transform: scale(100%, 0%);
@@ -96,6 +132,22 @@ p a{
 }
 
 
+
+.hero-2{
+    flex-wrap: wrap;
+    min-width: 150px;
+    ::before height: 100%;
+    /* background-color: red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.hero-links{
+    font-size: 34px;
+}
+
+/* CONTACT PAGE */
 
 
 
@@ -191,9 +243,8 @@ p a{
 
 .card{
     /* background-color: blue; */
-    max-width: 47.5%;
-    min-width: 100%;
-    margin: 15px;
+    width: 45%;
+    margin-right: 15px;
     font-size: larger;
 }
 .card img{
@@ -211,6 +262,3 @@ p a{
     float: right;
     direction: rtl;
 }
-/* .card :hover{
-    filter: brightness(1.1);
-} */
