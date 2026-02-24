@@ -181,6 +181,13 @@ h4{
     margin: auto;
     text-align: center;
 }
+.middle {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 100%;
+    /* background-color: blue; */
+}
 
 .bigimg{
     width: 100%;
@@ -193,6 +200,9 @@ h4{
     /* cursor: default; */
 }
 
+#under_construction{
+    cursor: not-allowed;
+}
 
 .contents h1{
     color: #ffffff;
@@ -267,7 +277,7 @@ h4{
     width: 100%;
     height: 1fr;
     container-type: inline-size;
-    border: blue 1px dashed ;
+    /* border: blue 1px dashed ; */
 }
 .hero-header h1{
     font-size: 13.5cqw;
@@ -277,7 +287,7 @@ h4{
     /* max-width: 100%; */
     height: min-content;
     /* position:relative; */
-    border: red 3px dashed;
+    /* border: red 3px dashed; */
 }
 
 .hero-image img{
@@ -307,7 +317,7 @@ h4{
     /* width: stretch; */
     min-width: 180px;
     /* flex-wrap: wrap; */
-    border: lime 1px dashed;
+    /* border: lime 1px dashed; */
 
     display: flex;
     align-items: center;
