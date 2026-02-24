@@ -40,8 +40,8 @@ img {
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(
     to left,
-    #00000000 0% 80%,
-    #ffffff40 80%
+    #00000000 0% 65%,
+    #ffffff40 65%
   );
 }
 
@@ -60,13 +60,7 @@ li{
     line-height: 1.2;
 }
 
-.note *{
-    font-size: larger;
-    line-height: 1.2;
-    color: #ffffff90;
-    font-style: italic;
-}
-.note{
+.note, .note *{
     font-size: larger;
     line-height: 1.2;
     color: #ffffff90;
