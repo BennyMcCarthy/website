@@ -1,0 +1,59 @@
+.big-item{
+    image-rendering: pixelated;
+    width: 128px;
+}
+
+.center_pixelated {
+    image-rendering: pixelated;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.items-grid-container{
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+
+    /* border: 1px solid red; */
+}
+.items-grid *{
+    max-height: 123px;
+    max-width: 123px;
+    height: auto;
+    width: auto;
+
+    margin: 4px;
+    
+    /* border: 1px solid blue; */
+}
+
+/* Fresh Food */
+.food-flexbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* gap: 5px; */
+
+    width: 80%;
+    margin: auto;
+
+    /* background-color: #ffffff; */
+}
+
+.food-flexbox img{
+    width: 100%;
+
+    /* background-color: #000000; */
+    /* outline: solid 1px white; */
+}
+
+.old-food{
+    /* background-color: blue; */
+}
+.new-food{
+    /* background-color: red; */
+}
+.sprite-food{
+    /* background-color: lime; */
+}

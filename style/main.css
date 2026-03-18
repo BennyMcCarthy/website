@@ -1,0 +1,291 @@
+body{
+    margin: 0%;
+
+    background-color: #000000;
+    color: #fafafa;
+    font-family: domine,'Times New Roman', Times, serif;
+}
+
+
+::-moz-selection { /* Code for Firefox */
+  color: #000000;
+  background: #000000;
+}
+::selection {
+  color: #000000;
+  background: #ffffff;
+}
+
+/* a::selection {
+  color: #000000;
+  background: #8f8f8f;
+} */
+br::selection {
+  background: #00000000;
+}
+
+img {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+    to left,
+    #00000000 0% 65%,
+    #ffffff40 65%
+  );
+}
+
+.pixelated{
+    image-rendering: pixelated;
+}
+
+
+hr{
+    color: #ffffff30;
+    border: solid 1px;
+}
+
+li{
+    font-size: larger;
+    line-height: 1.2;
+}
+
+.note, .note *{
+    font-size: larger;
+    line-height: 1.2;
+    color: #ffffff90;
+    font-style: italic;
+}
+.details *{
+    line-height: 0.2;
+    color: #ffffff90;
+}
+
+p{
+    font-size: larger;
+    line-height: 1.2;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p a{
+    font-weight: bold;
+}
+
+a:hover{
+    color: #000000;
+    background: #ffffff;
+}
+
+h1{
+    font-size: 125px;
+    margin: 0px;
+    font-weight: normal;
+}
+h2{
+    font-size: 80px;
+    margin: 0px;
+    font-weight: normal;
+}
+h3{
+    font-size: 50px;
+    margin: 0px;
+    font-weight: normal;
+}
+h4{
+    font-size: 30px;
+    margin: 0px;
+    font-weight: normal;
+}
+
+.linkback-title{
+    margin-top: 165px;
+    padding-top: 9px;
+
+    font-size: 125px;
+
+    overflow: hidden;
+    cursor: pointer;
+
+    /* background-color: red; */
+    height: 89px;
+    width: 100%;
+
+    line-height: 94px;
+}
+.linkback-title h1{
+    padding-left: 0;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.linkback-title img{
+    margin-bottom: 10px;
+}
+.linkback-title a{
+    /* font-weight: bold; */
+
+    /* text-decoration: underline; */
+    text-decoration-skip-ink: none;
+    text-underline-offset: 0px;
+}
+.linkback-title a:hover{
+    background: none;
+    color: #ffffff;
+}
+
+.title{
+    transition: transform 0.3s cubic-bezier(.13,.12,0,1);
+}
+.title:hover{
+    transform: translateY(-108px);
+}
+
+.title-logo{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.title-logo img{
+    width: 75%;
+    margin: 60px;
+}
+
+
+.center *{
+    margin: auto;
+    text-align: center;
+}
+.center {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.middle {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.bigimg{
+    width: 100%;
+}
+
+iframe{
+    aspect-ratio: 16 / 9;
+    width: 500px;
+}
+
+.imgclick:hover{
+    color: #000000;
+    background: #00000000;
+    /* cursor: zoom-in; */
+    /* cursor: default; */
+}
+
+#under_construction{
+    cursor: not-allowed;
+}
+
+.contents h1{
+    color: #ffffff;
+    font-size: 50px;
+}
+.contents a{
+    color: #b9b9b9;
+    font-size: 22px;
+}
+.contents a:hover {
+    color: #000000;
+    background: #ffffff;
+}
+
+.page{
+    max-width: 800px;
+    margin: auto;
+    height: 100vh;
+    /* background-color: blue; */
+}
+
+
+.linkback{
+    display: flex;
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+.linkback *{
+    font-size: 20px;
+    color: #ffffff80;
+    margin: 0;
+}
+
+
+
+
+
+.gallery{
+    margin-top: 30px;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    /* background-color: red; */
+}
+
+.card{
+    /* background-color: lime; */
+    width: 392px;
+    margin-bottom: 18px;
+    /* margin-right: 8px; */
+}
+.card img{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.card-description{
+    display: flex;
+    padding: 5px;
+}
+
+.card-details{
+    margin-left: auto;
+    /* background-color: rgb(0, 204, 187); */
+}
+
+
+/* @font-face {
+  font-family: "mpg";
+  src:
+    local("Mpg_2-Regular");
+}
+
+.mpg_text_input{
+    width: 100%;
+
+    outline: none;
+
+    background: #00000000;
+    color: #ffffff;
+
+    font-size: 30px;
+    font-family:'mpg';
+} */

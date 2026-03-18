@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>benjamin.co.nz</title>
+    <meta name="description" content="benjamin.co.nz | Paint • Pixel • Photo • 3D">
+    <meta name="author" content="Benjamin McCarthy">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="/style/home.css">
+
+    <!-- JavaScript -->
+     <script src="/script/home.js" defer></script>
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,109 +22,44 @@
 </head>
 
 <body>
+       
 
-    <style>
-        /* Flash bang prevention */
-        body{
-            background-color: black;
-        }
+<div class="hero">
+    <div class="hero-flexbox">
 
-        .hide{
-            transform: scale(50%, 0%);
-            opacity: 0%;
-        }
-    </style>
-
-
-    <div class="page">
-
-        <h1>benjamin.co.nz</h1>
-
-        <div class="hero">
-
-            <div class="hero-image">
-                <img id="pixelImg" class="hide" src="./assets/index/pixelImg.png">
-                <img id="photoImg" class="hide" src="./assets/index/photoImg.png">
-                <img id="paintImg" class="hide" src="./assets/mpg/lobby.jpg">
-                <!-- <img id="threedeeImg" class="hide" src=""> -->
-                <img id="contactImg" class="hide" src="./assets/index/contact.jpg">
+        <div class="hero-1">
+            <div class="hero-header">
+                <h1>benjamin.co.nz</h1>
             </div>
-
-            <div class="right">
-                <a id="pixelHover" href="./pixel.html">Pixel</a> <br>
-                <a id="photoHover" href="./photo.html" >Photo</a> <br>
-                <a id="paintHover" href="./paint.html">Paint</a> <br>
-                <!-- <a id="threedeeImg" href="./3d.html">3D</a> <br> -->
-                <a href="./about.html">About Me</a> <br>
-                <a id="contactHover" href="./contact.html">Contact</a> <br>
+            <div class="hero-images">
+                <div class="hidden-by-default">
+                    <img id="paintImg" src="/assets/l2apa/R1P2.jpg">
+                    <img id="pixelImg" src="/assets/index/pixel.webp">
+                    <img id="photoImg" src="/assets/index/photo.webp">
+                    <img id="threedeeImg" src="/assets/index/3d.webp">
+                    <img id="aboutImg" src="/assets/index/about.jpg">
+                    <img id="contactImg" src="/assets/index/contact.jpg">
+                </div>
+                <img src="/assets/index/mpg.jpg">
             </div>
         </div>
 
-
-        <script>
-            // Pixel
-            const pixelImg = document.getElementById("pixelImg");
-            const pixelHover = document.getElementById("pixelHover");
-
-            pixelHover.addEventListener('mouseover', () => {
-                pixelImg.classList.remove('hide');
-            });
-
-            pixelHover.addEventListener('mouseout', () => {
-                pixelImg.classList.add('hide');
-            });
-
-            // Photo
-            const photoImg = document.getElementById("photoImg");
-            const photoHover = document.getElementById("photoHover");
-
-            photoHover.addEventListener('mouseover', () => {
-                photoImg.classList.remove('hide');
-            });
-
-            photoHover.addEventListener('mouseout', () => {
-                photoImg.classList.add('hide');
-            });
-
-            // Paint
-            const paintImg = document.getElementById("paintImg");
-            const paintHover = document.getElementById("paintHover");
-
-            paintHover.addEventListener('mouseover', () => {
-                paintImg.classList.remove('hide');
-            });
-
-            paintHover.addEventListener('mouseout', () => {
-                paintImg.classList.add('hide');
-            });
-
-            // 3D
-            // const threedeeImg = document.getElementById("3dImg");
-            // const threedeeHover = document.getElementById("3dHover");
-
-            // threedeeImg.addEventListener('mouseover', () => {
-            //     threedeeImg.classList.remove('hide');
-            // });
-
-            // threedeeImg.addEventListener('mouseout', () => {
-            //     threedeeImg.classList.add('hide');
-            // });
-
-            // Contact
-            const contactImg = document.getElementById("contactImg");
-            const contactHover = document.getElementById("3dHover");
-
-            contactImg.addEventListener('mouseover', () => {
-                contactImg.classList.remove('hide');
-            });
-
-            contactImg.addEventListener('mouseout', () => {
-                contactImg.classList.add('hide');
-            });
-        </script>
-
+        <div class="hero-2">
+            <div class="hero-links">
+                <a onmouseover="stackToTop('paintImg')" onmouseout="stackToBottom('paintImg')" href="/paint">Paint</a>
+                <a onmouseover="stackToTop('pixelImg')" onmouseout="stackToBottom('pixelImg')" href="/pixel" >Pixel</a>
+                <a onmouseover="stackToTop('photoImg')" onmouseout="stackToBottom('photoImg')" href="/under_construction.html" id="under_construction">Photo</a>
+                <div onmouseover="stackToTop('threedeeImg')" onmouseout="stackToBottom('threedeeImg')" class="3dlink" style="width: 60%;">
+                    <a href="/under_construction.html" id="under_construction">3D</a>
+                </div>
+                <a onmouseover="stackToTop('aboutImg')" onmouseout="stackToBottom('aboutImg')" href="/about.html">About</a>
+                <a onmouseover="stackToTop('contactImg')" onmouseout="stackToBottom('contactImg')" href="/contact.html">Contact</a>
+            </div>
+        </div>
 
     </div>
+</div>
+
 
 </body>
 </html>
