@@ -1,2 +1,2 @@
-# [benjamin.co.nz](https://ben@benjamin.co.nz)
+# [benjamin.co.nz](ben@benjamin.co.nz)
 My personal website
