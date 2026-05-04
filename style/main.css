@@ -195,7 +195,7 @@ iframe{
 .imgclick:hover{
     color: #000000;
     background: #00000000;
-    /* cursor: zoom-in; */
+    cursor: zoom-in;
     /* cursor: default; */
 }
 
