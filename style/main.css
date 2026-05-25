@@ -9,7 +9,7 @@ body{
 
 ::-moz-selection { /* Code for Firefox */
   color: #000000;
-  background: #000000;
+  background: #ffffff;
 }
 ::selection {
   color: #000000;
