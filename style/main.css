@@ -183,6 +183,14 @@ h4{
     /* background-color: blue; */
 }
 
+.bigmaths{
+    display: inline;
+    math-style: inherit;
+    color: red;
+    width: 100%;
+    margin: auto;
+}
+
 .bigimg{
     width: 100%;
 }
