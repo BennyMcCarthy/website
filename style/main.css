@@ -184,11 +184,9 @@ h4{
 }
 
 .bigmaths{
-    display: inline;
-    math-style: inherit;
-    color: red;
-    width: 100%;
-    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 30px;
 }
 
 .bigimg{
