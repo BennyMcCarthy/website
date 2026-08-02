@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.navbar{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+    /* position: fixed; */
+    /* background-color: #000000; */
+    /* background-color: blue; */
+}
+
+.navbar-pages{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.navbar-pages * {
+    display: block;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.navbar li{
+    list-style-type: none;
+}
+.navbar h1{
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+
+.gallery{
+    /* display: flex; */
+    width: 1fr;
+    /* background-color: red; */
+}
+.gallery *{
+    width: 100%;
+    /* width: 100px; */
+    /* min-width: 100%; */
+    padding: 30px;
+}

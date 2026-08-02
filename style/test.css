@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    line-height: 1.5rem;
+    font-size: 24px;
+
+    height: 100%;
+
+    font-family: 'Domine', 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text);
+}
+p a{
+    text-decoration: dotted;
+    text-decoration-style: dotted;
+}
+
+/* bring back default values */
+h1{
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+}
+h2{
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+}
+h3{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+h4{
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+}
+h5{
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+}
+h6{
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
+}
+
+/* Paragraph */
+
+.paragraph{
+    max-width: 38rem;
+    padding: 2rem;
+    margin: auto;
+}
+
+.paragraph p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+/* COLOURS */
+
+/* Set the default */
+:root{
+    --background: black;
+    --text: white;
+}
+
+@media (prefers-color-scheme: dark){
+    :root{
+    --background: black;
+    --text: white;
+    --darker: rgb(79, 79, 79);
+    --highlight-text: hsl(220, 50%, 95%);
+    --highlight: hsla(220, 50%, 50%, 0.5);
+    }
+}
+
+@media (prefers-color-scheme: light){
+    :root{
+    --background: white;
+    --text: black;
+    --darker: rgb(170, 170, 170);
+    --highlight-text: hsl(220, 85%, 0%);
+    --highlight: hsl(220, 85%, 75%, 0.5);
+    }
+}
+
+
+
+html{
+    color-scheme: dark light; /* scroll bars and such */
+    color: var(--text);
+    background-color: var(--background);
+}
+
+/* Text highlight */
+::-moz-selection { /* Code for Firefox */
+  color: var(--highlight-text);
+  background: var(--highlight);
+}
+::selection {
+  color: var(--highlight-text);
+  background: var(--highlight);
+}
+
+
+.tag{
+    display: block;
+    
+    width: fit-content;
+    padding: 2px 12px;
+
+    outline: 1.9px solid;
+    border-radius: 10000px;
+
+    margin-left: 12px;
+
+    color: hsl(0, 0%, 50%);
+}
+
+
+/* Navbar */
+.nav{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 10000;
+    
+    padding: 20px 0px;
+    padding-bottom: 70px;
+    width: 100%;
+
+    background: linear-gradient(
+    to bottom,
+    hsl(0, 0%, 0%),
+    hsla(0, 0%, 0%, 0.94505) 7.9%,
+    hsla(0, 0%, 0%, 0.88294) 15.3%,
+    hsla(0, 0%, 0%, 0.81522) 22.2%,
+    hsla(0, 0%, 0%, 0.7426) 28.7%,
+    hsla(0, 0%, 0%, 0.66692) 34.8%,
+    hsla(0, 0%, 0%, 0.58891) 40.6%,
+    hsla(0, 0%, 0%, 0.50925) 46.2%,
+    hsla(0, 0%, 0%, 0.42866) 51.7%,
+    hsla(0, 0%, 0%, 0.34817) 57.2%,
+    hsla(0, 0%, 0%, 0.2693) 62.8%,
+    hsla(0, 0%, 0%, 0.19309) 68.7%,
+    hsla(0, 0%, 0%, 0.12126) 75.2%,
+    hsla(0, 0%, 0%, 0.05882) 82.6%,
+    hsla(0, 0%, 0%, 0.01457) 91.2%,
+    hsla(0, 0%, 0%, 0)
+  );
+  /* https://github.com/larsenwork/postcss-easing-gradients */
+
+    display: flex;
+}
+.nav *{
+    padding: 10px 20px;
+    transition:
+        3s cubic-bezier(0,1,0,1);
+}
+
+.nav * :hover{
+    letter-spacing: -1.5px;
+}
+
+
+
+.nav-left{
+    /* padding-left: 32.4rem; */
+}
+
+.nav-middle{
+    margin: auto;
+}
+
+.nav-right{
+    /* padding-right: 32.4rem; */
+}
+
+
+/* Hiding */
+.nav{
+    transition: 1s cubic-bezier(0,1,0.5,1);
+    /* transition: color 3s cubic-bezier(0,1,0.5,1);
+    transition: background-color 3s cubic-bezier(0,1,0.5,1); */
+}
+.nav--hidden{
+    transform: translateY(-80px);
+    opacity: 0%;
+}
+
+
+
+/* Title */
+.title{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 300px;
+    margin-bottom: 100px;
+
+    /* background-color: yellow; */
+}
+
+
+.title-left{
+    width: 40%;
+    align-content: flex-end;
+    padding-right: 90px;
+
+    background-color: red;
+}
+
+.title-right{
+    width: 50%;
+    align-content: flex-end;
+
+    font-size: 21px;
+    line-height: normal;
+
+    background-color: blue;
+}
+
+
+.title h1{
+    font-size: 112px;
+    line-height: 86%;
+    font-weight: normal;
+
+    margin: 0;
+}
+
+.title p{
+    margin: 0;
+    text-align: end;
+}
+
+.title .tags{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 12px;
+}
+
+
+
+
+/* Gallery */
+
+.gallery{
+    background-color: green;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery *{
+    display: block;
+    width: 50%;
+}
+
+/* BigImg */
+.bigimg{
+    width: 100%;
+}
+
+
+/* Footer */
+.footer{
+    margin-top: auto;
+
+    font-size: 50px;
+    line-height: normal;
+
+    width: 100%;
+    border-top: solid 1px var(--darker);
+    background-color: var(--background);
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.footer *{
+    color: var(--darker);
+    margin-inline: 7px;
+    /* padding-bottom: 50px; */
+}

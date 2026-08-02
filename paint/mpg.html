@@ -11,6 +11,12 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/style/main.css">
 
+    <!-- Locomotive Scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/bundled/locomotive-scroll.min.js"></script>
+    <script>
+        const locomotiveScroll = new LocomotiveScroll();
+    </script>
+
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,7 +52,15 @@
         <br>
         <br>
 
-        <p>My <a href="https://en.wikipedia.org/wiki/National_Certificate_of_Educational_Achievement" target="_blank">NCEA</a> Year 12 Design project was creating a Multiplayer Party Game called MPG.</p>
+        <p>
+        My
+            <span class="tooltip">
+                NCEA
+                <span class="tooltip-text">
+                    New Zealand's high school curriculum / qualification (National Certificate of Educational Achievement)
+                </span>
+            </span>
+        Year 12 Design project was creating a Multiplayer Party Game called MPG.</p>
 
         <img src="/assets/mpg/mpg_title.jpg" class="bigimg">
 
@@ -289,7 +303,16 @@
             <img src="/assets/mpg/board_2160px.jpg" class="bigimg">    
         </a>
 
-        <p> <i>This is the final board that I submitted to NZQA.</i> </p>
+        <p>
+        This is the final board that I submitted to
+            <span class="tooltip">
+                NZQA
+                <span class="tooltip-text">
+                    New Zealand Qualifications Authority (the people who mark the school assessments)
+                </span>
+            </span> 
+        .
+        </p>
 
         <p>If you have any questions or anything then please do <a href="/contact.html">contact</a> me. As far as I can know, not one person has visited my website lol</p>
         <br>

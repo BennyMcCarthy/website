@@ -9,8 +9,17 @@
     <meta name="keywords" content="Ben McCarthy, Portfolio">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="/style/test.css">
     <link rel="stylesheet" href="/style/portfolio.css">
+
+    <!-- JavaScript -->
+     <script src="/script/nav-scroll.js" defer></script>
+
+    <!-- Locomotive Scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/bundled/locomotive-scroll.min.js"></script>
+    <script>
+        const locomotiveScroll = new LocomotiveScroll();
+    </script>
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,12 +43,29 @@
 
     <div class="page-portfolio">
 
+        <div class="nav">
+            <div class="nav-left">
+                <a href="./index.html">benjamin.co.nz</a>
+            </div>
+            
+            <div class="nav-middle">
+                <a href="./portfolio.html">Portfolio</a>
+                <a href="./work.html">All work</a>
+                <a href="./resources.html">Resources</a>
+            </div>
+
+            <div class="nav-right">
+                <a href="./about.html">About</a>
+                <a href="./contact.html">Contact</a>
+            </div>            
+        </div>
+
         <div class="hero">
             <div class="hero-text">
                 <h1>Ben <br>McCarthy</h1>
                 <div class="hero-details">
-                    <p>Visual Development | Concept Design</p>
-                    <a href="mailto:ben@benjamin.co.nz">ben@benjamin.co.nz</a>
+                    <!-- <p>Visual Development | Concept Design</p> -->
+                    <p><a href="mailto:ben@benjamin.co.nz">ben@benjamin.co.nz</a>
                 </div>
             </div>
         </div>
