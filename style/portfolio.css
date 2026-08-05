@@ -5,6 +5,8 @@
 }
 
 .hero{
+    margin-top: 100px;
+
     width: 100%;
     aspect-ratio: 16 / 9;
     background-image: url(/assets/paint/dear-mr-earl/station.jpg);
@@ -17,27 +19,14 @@
     position: absolute;
     bottom: 0;
     
-    padding-left: 100px;
-    padding-bottom: 180px;
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
 
-}
-.hero-text h1{
-    line-height: 108px;
-}
 .hero-details {
     font-size: 25px;
-    line-height: 0;
 }
 
 .hero *{
     color: #f4d58a;
-}
-
-.hero ::-moz-selection { /* Code for Firefox */
-  color: #f4d58a;
-  background: #000000;
-}
-.hero ::selection {
-  color: #f4d58a;
-  background: #000000;
 }

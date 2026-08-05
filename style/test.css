@@ -71,7 +71,7 @@ h6{
 
 /* COLOURS */
 
-/* Set the default */
+/* defaults */
 :root{
     --background: black;
     --text: white;
@@ -87,7 +87,7 @@ h6{
     }
 }
 
-@media (prefers-color-scheme: light){
+/* @media (prefers-color-scheme: light){
     :root{
     --background: white;
     --text: black;
@@ -95,7 +95,7 @@ h6{
     --highlight-text: hsl(220, 85%, 0%);
     --highlight: hsl(220, 85%, 75%, 0.5);
     }
-}
+} */
 
 
 
@@ -270,8 +270,34 @@ html{
     width: 50%;
 }
 
+/* IMAGES */
+
 /* BigImg */
 .bigimg{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/* grids */
+div[class^="grid-"] *{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.grid-2{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    margin-bottom: 25px;
+    
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
     width: 100%;
 }
 
