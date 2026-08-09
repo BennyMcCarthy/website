@@ -55,7 +55,15 @@ h6{
     margin-bottom: 2.33em;
 }
 
-/* Paragraph */
+/* Page Sizes */
+.page{
+    padding-top: 125px;
+    /* max-width: 75%; */
+    max-width: 95%;
+
+    margin: auto;
+    height: 100%;
+}
 
 .paragraph{
     max-width: 38rem;
@@ -212,17 +220,20 @@ html{
 
 /* Full */
 .nav-full {
+
+    border-top: solid 1px var(--darker);
+
     background-color: var(--background);
-    position: fixed;
+    /* position: fixed;
     top: 0px;
     left: 0;
-    z-index: 1100;
+    z-index: 1100; */
 
-    height: 100vh;
-    width: 100vw;
+    height: 200vh;
+    width: 100%;
     padding: 30px;
 
-    display: none;
+    display: block;
     
 }
 
@@ -233,12 +244,12 @@ html{
     list-style: none;
 }
 
-.nav-full-benjamin{
+.benjamin{
     margin-top: 6%;
     margin-bottom: 3.5%;
     container-type: inline-size;
 }
-.nav-full-benjamin *{
+.benjamin *{
     font-size: 13.5cqw;
 }
 
@@ -323,6 +334,7 @@ div[class^="grid-"] *{
     object-fit: cover;
     height: 100%;
     width: 100%;
+    aspect-ratio: 1 / 1;
 }
 
 .grid-2{
@@ -330,8 +342,8 @@ div[class^="grid-"] *{
     width: 100%;
     grid-template-columns: 1fr 1fr;
     column-gap: 50px;
+    row-gap: 50px;
     margin-bottom: 25px;
-    
 }
 
 .grid-3{
@@ -341,10 +353,23 @@ div[class^="grid-"] *{
     width: 100%;
 }
 
+/* pixel */
+#pixel{
+    image-rendering: pixelated;
+}
+
+
+
+/* Wrapper */
+/* .wrapper{
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+} */
 
 /* Footer */
 .footer{
-    margin-top: auto;
+    /* margin-top: auto; */
 
     font-size: 50px;
     line-height: normal;
