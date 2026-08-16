@@ -394,20 +394,20 @@ div[class^="grid-"] *{
     aspect-ratio: 1 / 1;
 }
 
-.grid-2{
+div[class^="grid-"]{
     display: grid;
     width: 100%;
-    grid-template-columns: 1fr 1fr;
+    margin-bottom: 25px;
     column-gap: 50px;
     row-gap: 50px;
-    margin-bottom: 25px;
+}
+
+.grid-2{
+    grid-template-columns: 1fr 1fr;
 }
 
 .grid-3{
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 50px;
-    width: 100%;
 }
 
 /* pixel */
