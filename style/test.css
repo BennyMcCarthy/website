@@ -170,6 +170,8 @@ html{
     hsla(0, 0%, 0%, 0)
   );
   /* https://github.com/larsenwork/postcss-easing-gradients */
+
+  pointer-events: none;
 }
 
 .nav-wide{
@@ -189,6 +191,10 @@ html{
 
 .nav-wide * :hover{
     letter-spacing: -1.5px;
+}
+
+.nav a{
+    pointer-events: auto;
 }
 
 
@@ -237,13 +243,6 @@ html{
     
 }
 
-.nav-full li{
-    width: 100%;
-    /* background-color: blue; */
-    border-top: 2px solid var(--darker);
-    list-style: none;
-}
-
 .benjamin{
     margin-top: 6%;
     margin-bottom: 3.5%;
@@ -251,6 +250,46 @@ html{
 }
 .benjamin *{
     font-size: 13.5cqw;
+}
+
+
+
+.nav-full-flexbox{
+    display: flex;
+    /* flex-direction: column; */
+    /* background-color: lime; */
+}
+
+.nav-full-links{
+    /* background-color: red; */
+    flex-grow: 1;
+}
+
+.nav-full-img{
+    /* position: relative; */
+    /* width: 25%; */
+    /* top: 0; */
+    /* left: 0; */
+    width: 37%;
+    margin-left: 25px;
+}
+
+.nav-full-img *{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    /* aspect-ratio: 1 / 1; */
+}
+
+
+.nav-full li{
+    list-style: none;
+}
+.nav-full li a{
+    display: inline-block;
+    width: 100%;
+    /* background-color: blue; */
+    border-top: 2px solid var(--darker);
 }
 
 
@@ -306,6 +345,20 @@ html{
 
 
 
+.hero{
+    /* height: 80vh; */
+    /* background-color: red; */
+    /* display: flex;
+    align-items: center; */
+}
+.hero *{
+    /* margin-top: 40vh; */
+    /* margin-bottom: 50px; */
+    margin-bottom: 8vh;
+    /* background-color: lime; */
+    display: block;
+}
+
 
 /* Gallery */
 
@@ -328,6 +381,10 @@ html{
     width: 100%;
     margin-bottom: 25px;
 }
+a .bigimg{
+    cursor: default;
+}
+
 
 /* grids */
 div[class^="grid-"] *{
