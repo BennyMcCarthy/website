@@ -1,7 +1,7 @@
 .page-portfolio{
     padding-top: 125px;
     width: 1800px;
-    max-width: 100%;
+    max-width: 95%;
 
     margin: auto;
     height: 100%;
@@ -13,7 +13,7 @@
 
     width: 100%;
     aspect-ratio: 16 / 9;
-    background-image: url(/assets/paint/dear-mr-earl/station.jpg);
+    background-image: url(./dear-mr-earl/station.jpg);
     background-size: cover;
 
     position: relative;

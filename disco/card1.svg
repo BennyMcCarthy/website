@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http:./www.w3.org/2000/svg" version="1.1" xmlns:xlink="http:./www.w3.org/1999/xlink" viewBox="0 0 800 800">
+  <!-- Generator: Adobe Illustrator 30.2.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 1)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #44374c;
+      }
+
+      .st1 {
+        fill: #80648f;
+      }
+
+      .st2 {
+        fill: #473a57;
+      }
+
+      .st3 {
+        fill: #947ea0;
+      }
+
+      .st4 {
+        opacity: .4;
+      }
+
+      .st5 {
+        fill: #f2e3ff;
+      }
+
+      .st6 {
+        fill: #382841;
+      }
+
+      .st7 {
+        fill: #65586c;
+      }
+
+      .st8 {
+        fill: #e8daef;
+      }
+
+      .st9 {
+        fill: #cac1d0;
+      }
+
+      .st10 {
+        isolation: isolate;
+      }
+
+      .st10, .st11 {
+        fill: #fff;
+      }
+
+      .st10, .st12 {
+        opacity: .3;
+      }
+
+      .st13 {
+        fill: #aa98b3;
+      }
+
+      .st14 {
+        fill: #9b8ca8;
+      }
+
+      .st15 {
+        display: none;
+        opacity: .2;
+      }
+
+      .st16 {
+        fill: #75657d;
+      }
+
+      .st17 {
+        fill: #b4a2bf;
+      }
+
+      .st18 {
+        fill: #dbcde3;
+      }
+
+      .st19 {
+        fill: #e2d9e8;
+      }
+
+      .st20 {
+        fill: #c3b1cd;
+      }
+
+      .st21 {
+        fill: #d9c3e6;
+      }
+
+      .st22 {
+        fill: #5c4f66;
+      }
+
+      .st23 {
+        fill: #675472;
+      }
+
+      .st24 {
+        fill: #5f4d6a;
+      }
+
+      .st25 {
+        fill: #d68fff;
+      }
+
+      .st26 {
+        fill: #c9c5d8;
+      }
+
+      .st27 {
+        opacity: .1;
+      }
+
+      .st28 {
+        fill: url(#linear-gradient);
+      }
+
+      .st29 {
+        fill: #574960;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="400" y1="800" x2="400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#372a51"/>
+      <stop offset=".5" stop-color="#2c223f"/>
+      <stop offset="1" stop-color="#241c30"/>
+    </linearGradient>
+  </defs>
+  <rect class="st28" width="800" height="800"/>
+  <g>
+    <g id="right">
+      <g id="B2">
+        <polygon class="st6" points="198.3 427.9 198.3 458.7 225 443.3 225 412.5 198.3 427.9"/>
+      </g>
+      <g id="B3">
+        <polygon class="st22" points="171.6 443.3 171.6 474.1 198.3 458.7 198.3 427.9 171.6 443.3"/>
+      </g>
+      <g id="B4">
+        <polygon class="st2" points="144.9 458.7 144.9 489.5 171.6 474.1 171.6 443.3 144.9 458.7"/>
+      </g>
+      <g id="C2">
+        <polygon class="st23" points="198.3 397.1 198.3 427.9 225 412.5 225 381.6 198.3 397.1"/>
+      </g>
+      <g id="C3">
+        <polygon class="st2" points="171.6 412.5 171.6 443.3 198.3 427.9 198.3 397.1 171.6 412.5"/>
+      </g>
+      <g id="C4">
+        <polygon class="st29" points="144.9 427.9 144.9 458.7 171.6 443.3 171.6 412.5 144.9 427.9"/>
+      </g>
+      <g id="D2">
+        <polygon class="st0" points="198.3 366.2 198.3 397.1 225 381.6 225 350.8 198.3 366.2"/>
+      </g>
+      <g id="D3">
+        <polygon class="st24" points="171.6 381.6 171.6 412.5 198.3 397.1 198.3 366.2 171.6 381.6"/>
+      </g>
+      <g id="D4">
+        <polygon class="st0" points="144.9 397.1 144.9 427.9 171.6 412.5 171.6 381.6 144.9 397.1"/>
+      </g>
+    </g>
+    <g id="left">
+      <g id="B2-2">
+        <polygon class="st16" points="91.5 427.9 91.5 458.7 64.8 443.3 64.8 412.5 91.5 427.9"/>
+      </g>
+      <g id="B3-2">
+        <polygon class="st20" points="118.2 443.3 118.2 474.1 91.5 458.7 91.5 427.9 118.2 443.3"/>
+      </g>
+      <g id="B4-2">
+        <polygon class="st14" points="144.9 458.7 144.9 489.5 118.2 474.1 118.2 443.3 144.9 458.7"/>
+      </g>
+      <g id="C2-2">
+        <polygon class="st13" points="91.5 397.1 91.5 427.9 64.8 412.5 64.8 381.6 91.5 397.1"/>
+      </g>
+      <g id="C3-2">
+        <polygon class="st3" points="118.2 412.5 118.2 443.3 91.5 427.9 91.5 397.1 118.2 412.5"/>
+      </g>
+      <g id="C4-2">
+        <polygon class="st18" points="144.9 427.9 144.9 458.7 118.2 443.3 118.2 412.5 144.9 427.9"/>
+      </g>
+      <g id="D2-2">
+        <polygon class="st7" points="91.5 366.2 91.5 397.1 64.8 381.6 64.8 350.8 91.5 366.2"/>
+      </g>
+      <g id="D3-2">
+        <polygon class="st8" points="118.2 381.6 118.2 412.5 91.5 397.1 91.5 366.2 118.2 381.6"/>
+      </g>
+      <g id="D4-2">
+        <polygon class="st11" points="144.9 397.1 144.9 427.9 118.2 412.5 118.2 381.6 144.9 397.1"/>
+      </g>
+    </g>
+    <g id="top">
+      <g id="A2">
+        <polygon class="st26" points="118.2 350.8 91.5 366.2 64.8 350.8 91.5 335.4 118.2 350.8"/>
+      </g>
+      <g id="A3">
+        <polygon class="st11" points="144.9 366.2 118.2 381.6 91.5 366.2 118.2 350.8 144.9 366.2"/>
+      </g>
+      <g id="A4">
+        <polygon class="st19" points="171.6 381.6 144.9 397.1 118.2 381.6 144.9 366.2 171.6 381.6"/>
+      </g>
+      <g id="B2-3">
+        <polygon class="st5" points="144.9 335.4 118.2 350.8 91.5 335.4 118.2 320 144.9 335.4"/>
+      </g>
+      <g id="B3-3">
+        <polygon class="st17" points="171.6 350.8 144.9 366.2 118.2 350.8 144.9 335.4 171.6 350.8"/>
+      </g>
+      <g id="B4-3">
+        <polygon class="st9" points="198.3 366.2 171.6 381.6 144.9 366.2 171.6 350.8 198.3 366.2"/>
+      </g>
+      <g id="C2-3">
+        <polygon class="st1" points="171.6 320 144.9 335.4 118.2 320 144.9 304.6 171.6 320"/>
+      </g>
+      <g id="C3-3">
+        <polygon class="st21" points="198.3 335.4 171.6 350.8 144.9 335.4 171.6 320 198.3 335.4"/>
+      </g>
+      <g id="C4-3">
+        <polygon class="st5" points="225 350.8 198.3 366.2 171.6 350.8 198.3 335.4 225 350.8"/>
+      </g>
+    </g>
+    <g id="highlight">
+      <g id="highlight_x5F_right">
+        <g id="Right" class="st27">
+          <polygon class="st11" points="221.6 352.7 221.6 441.4 225 439.4 225 350.8 221.6 352.7"/>
+        </g>
+        <g id="Bottom" class="st27">
+          <polygon class="st11" points="144.9 485.7 144.9 489.5 225 443.3 225 439.4 144.9 485.7"/>
+        </g>
+        <g id="Left" class="st15">
+          <polygon class="st11" points="144.9 397.1 144.9 485.7 148.2 483.7 148.2 395.1 144.9 397.1"/>
+        </g>
+      </g>
+      <g id="highlight_x5F_left">
+        <g id="Bottom-2" class="st12">
+          <polygon class="st11" points="144.9 485.7 144.9 489.5 64.8 443.3 64.8 439.4 144.9 485.7"/>
+        </g>
+        <g id="Left-2">
+          <polygon class="st10" points="68.1 352.7 68.1 441.4 64.8 439.4 64.8 350.8 68.1 352.7"/>
+        </g>
+      </g>
+      <g id="highlight_x5F_top">
+        <g id="Bottom_Right">
+          <polygon class="st11" points="144.9 393.2 148.2 395.1 225 350.8 221.6 348.9 144.9 393.2"/>
+        </g>
+        <g id="Top_Right" class="st4">
+          <polygon class="st11" points="221.6 348.9 218.3 350.8 144.9 308.4 148.2 306.5 221.6 348.9"/>
+        </g>
+        <g id="Bottom_Left">
+          <polygon class="st11" points="148.2 395.1 144.9 397.1 64.8 350.8 68.1 348.9 148.2 395.1"/>
+        </g>
+        <g id="Top_Left" class="st4">
+          <polygon class="st11" points="68.1 348.9 71.5 350.8 148.2 306.5 144.9 304.6 68.1 348.9"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <path class="st25" d="M257.9,350.8h74v18.5h-55.5v55.5h55.5v18.5h-74v-92.5ZM331.9,369.3h18.5v55.5h-18.5v-55.5Z"/>
+    <path class="st25" d="M363.6,350.8h55.5v18.5h-18.5v55.5h18.5v18.5h-55.5v-18.5h18.5v-55.5h-18.5v-18.5Z"/>
+    <path class="st25" d="M432.3,369.3h18.5v18.5h-18.5v-18.5ZM432.3,424.8h74v18.5h-74v-18.5ZM450.8,350.8h74v18.5h-74v-18.5ZM450.8,387.8h55.5v18.5h-55.5v-18.5ZM506.3,406.3h18.5v18.5h-18.5v-18.5Z"/>
+    <path class="st25" d="M538,369.3h18.5v55.5h-18.5v-55.5ZM556.5,350.8h55.5v18.5h-55.5v-18.5ZM556.5,424.8h55.5v18.5h-55.5v-18.5ZM611.9,369.3h18.5v18.5h-18.5v-18.5ZM611.9,406.3h18.5v18.5h-18.5v-18.5Z"/>
+    <path class="st25" d="M643.6,369.3h18.5v55.5h-18.5v-55.5ZM662.1,350.8h55.5v18.5h-55.5v-18.5ZM662.1,424.8h55.5v18.5h-55.5v-18.5ZM717.6,369.3h18.5v55.5h-18.5v-55.5Z"/>
+  </g>
+</svg>

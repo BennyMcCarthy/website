@@ -5,21 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>benjamin.co.nz</title>
-    <meta name="description" content="benjamin.co.nz | Paint • Pixel • Photo • 3D">
-    <meta name="author" content="Benjamin McCarthy">
+    <meta name="description" content="benjamin.co.nz">
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="/style/main.css">
-    <link rel="stylesheet" href="/style/home.css">
-
-    <!-- JavaScript -->
-     <script src="/script/home.js" defer></script>
+    <link rel="stylesheet" href="/style/test.css">
 
     <!-- Locomotive Scroll -->
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/bundled/locomotive-scroll.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/bundled/locomotive-scroll.min.js"></script>
     <script>
         const locomotiveScroll = new LocomotiveScroll();
-    </script>
+    </script> -->
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,44 +23,113 @@
 </head>
 
 <body>
-       
 
-<div class="hero">
-    <div class="hero-flexbox">
-
-        <div class="hero-1">
-            <div class="hero-header">
-                <h1>benjamin.co.nz</h1>
+    <div class="nav">
+        <div class="nav-wide">
+            <div class="nav-left">
+                <a href="./">benjamin.co.nz</a>
             </div>
-            <div class="hero-images">
-                <div class="hidden-by-default">
-                    <img id="paintImg" src="/assets/l2apa/R1P2.jpg">
-                    <img id="pixelImg" src="/assets/index/pixel.webp">
-                    <img id="photoImg" src="/assets/index/photo.webp">
-                    <img id="threedeeImg" src="/assets/index/3d.webp">
-                    <img id="aboutImg" src="/assets/index/about.jpg">
-                    <img id="contactImg" src="/assets/index/contact.jpg">
-                </div>
-                <img src="/assets/index/mpg.jpg">
+            
+            <div class="nav-middle">
+                <a href="./portfolio/">Portfolio</a>
+                <a href="./work/">All work</a>
+                <a href="./resources/">Resources</a>
+            </div>
+
+            <div class="nav-right">
+                <a href="./about/">About</a>
+                <a href="./contact/">Contact</a>
             </div>
         </div>
+    </div>
 
-        <div class="hero-2">
-            <div class="hero-links">
-                <a onmouseover="stackToTop('aboutImg')" onmouseout="stackToBottom('aboutImg')" href="/about.html">About</a>
-                <a onmouseover="stackToTop('contactImg')" onmouseout="stackToBottom('contactImg')" href="/contact.html">Contact</a>
-                <a href="/portfolio.html">Portfolio</a>
-                <br>                
-                <a onmouseover="stackToTop('paintImg')" onmouseout="stackToBottom('paintImg')" href="/paint">Paint</a>
-                <a onmouseover="stackToTop('pixelImg')" onmouseout="stackToBottom('pixelImg')" href="/pixel" >Pixel</a>
-                <a onmouseover="stackToTop('photoImg')" onmouseout="stackToBottom('photoImg')" href="/under-construction.html" id="under_construction">Photo</a>
-                <div onmouseover="stackToTop('threedeeImg')" onmouseout="stackToBottom('threedeeImg')" class="3dlink" style="width: 60%;"><a href="/under-construction.html" id="under_construction">3D</a></div>
+    <div class="wrapper">
+        <div class="page">
+
+            <div class="hero">
+                <!-- <h1>hi</h1> -->
+                <div class="benjamin">
+                    <a href="">benjamin.co.nz</a>
+                </div>
+            </div>
+            
+            <div class="grid-2">
+                <a href="./dear-mr-earl/"><img src="./dear-mr-earl/card.png"></a>
+                <a href="./mpg/"><img src="/mpg/card.jpg"></a>
+                <a href="./pixel/christmas-mod/"><img src="./christmas-mod/card.png" id="pixel"></a>
+                <!-- <a href="./optical-effects/"><img src=".//aotearoa/cover.webp"></a> -->
+                <a href="./optical-effects/"><img src="./optical-effects/R1P2.jpg"></a>
+                
+                <a href="./pixel/items/"><img src=".//items/card.png"></a>
+                <a href="./pixel/container-plaques/"><img src=".//container-plaques/card.png" id="pixel"></a>
+
+                <a href="./minecraft-trailers/"><img src="./minecraft-trailers/card.png"></a>
+                <a href="./pixel/bundles/"><img src=".//bundles/card.png"></a>
+
+                <a href="./tutorials/"><img src="./about/crt.jpg"></a>
+                <a href="./pixel/disco/"><img src="./disco/card2.png"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="nav-full">
+        
+        <div class="benjamin">
+            <a href="">benjamin.co.nz</a>
+        </div>
+        
+        <div class="nav-full-flexbox">
+            <div class="nav-full-links">
+                <ul>
+                    <li><a href="./portfolio/">Portfolio</a></li>
+                    <li><a href="./about/">About</a></li>
+                    <li><a href="./Contact/">Contact</a></li>
+
+                    <br>
+                    <strong>Paint</strong>
+                    <li><a href="./dear-mr-earl/">Dear Mr Earl</a></li>
+                    <li><a href="./mpg/">MPG</a></li>
+                    <li><a href="./aotearoa/">Aotearoa</a></li>
+                    <li><a href="./optical-effects/">Optical Effects</a></li>
+                    <li><a href="./personals/">Personals</a></li>
+
+                    <br>
+                    <strong>Pixel</strong>
+                    <li><a href="./bens-christmas-mod/">Ben's Christmas Mod</a></li>
+                    <li><a href="./bens-bundles/">Ben's Bundles</a></li>
+                    <li><a href="./bens-container-plaques/">Ben's container-plaques</a></li>
+                    <li><a href="./team-disco/">Team Disco</a></li>
+                    
+                    <br>
+                    <strong>Tutorials</strong>
+                    <li><a href="./photoshop-brushes/">Photoshop Brushes</a></li>
+                    <li><a href="./falloff/">Falloff</a></li>
+                    <li><a href="./pixel-art-tips/">Pixel Art Tips</a></li>
+                    <li><a href="./everything-i-know/">Everying I Know</a></li>
+                </ul>
+            </div>
+            <div class="nav-full-img">
+                <img src="./dear-mr-earl/card.png">
+                <!-- <img id="mpg" src="/mpg/mpg_title.jpg">
+                <img id="christmas-mod" src="./christmas-mod/card.png" id="pixel">
+                <img id="aotearoa" src=".//aotearoa/cover.webp">
+                <img id="optical-effects" src="./optical-effects/R1P2.jpg">
+                <img id="items" src=".//items/card.png">
+                <img id="container-plaques" src=".//container-plaques/card.png" id="pixel">
+                <img id="3d" src="./minecraft-trailers/card.png">
+                <img id="bundles" src=".//bundles/card.png">
+                <img id="tutorials" src="./about/crt.jpg">
+                <img id="disco" src="./disco/card2.png"> -->
             </div>
         </div>
 
     </div>
-</div>
 
+    <!-- <div class="footer">
+        <a href="./index.html">benjamin.co.nz</a>
+        <p>© Benjamin McCarthy 2026</p>
+    </div> -->
 
 </body>
 </html>

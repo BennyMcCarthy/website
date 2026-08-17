@@ -169,7 +169,7 @@ html{
     hsla(0, 0%, 0%, 0.01457) 91.2%,
     hsla(0, 0%, 0%, 0)
   );
-  /* https://github.com/larsenwork/postcss-easing-gradients */
+  /* https:./github.com/larsenwork/postcss-easing-gradients */
 
   pointer-events: none;
 }

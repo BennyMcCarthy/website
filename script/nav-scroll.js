@@ -1,4 +1,4 @@
-// https://www.youtube.com/watch?v=Q_XZk5Vnujw
+./ https:./www.youtube.com/watch?v=Q_XZk5Vnujw
 
 {
     const nav = document.querySelector(".nav");
