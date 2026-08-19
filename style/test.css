@@ -8,6 +8,7 @@
 html {
     line-height: 1.5rem;
     font-size: 24px;
+    color-scheme: dark;
 
     height: 100%;
 
@@ -76,6 +77,11 @@ h6{
     margin-bottom: 1em;
 }
 
+.page-images{
+    width: 1500px;
+    max-width: 95%;
+    margin: auto;
+}
 
 /* COLOURS */
 
@@ -83,6 +89,9 @@ h6{
 :root{
     --background: black;
     --text: white;
+    --darker: rgb(79, 79, 79);
+    --highlight-text: hsl(220, 50%, 95%);
+    --highlight: hsla(220, 50%, 50%, 0.5);
 }
 
 @media (prefers-color-scheme: dark){
@@ -138,6 +147,29 @@ html{
     color: hsl(0, 0%, 50%);
 }
 
+.tooltip{
+    position: relative;
+
+    cursor: help;
+    border-bottom: 1px dotted #ffffff;
+}
+
+/* Tooltip */
+.tooltip-text{
+    position: absolute;
+    visibility: hidden;
+    width: 25ch;
+
+    background-color: #000000;
+    border: 1px #ffffff;
+    border-style: solid;
+
+    filter: drop-shadow(0px 12px 20px #000000);
+}
+
+.tooltip:hover .tooltip-text{
+    visibility: visible;
+}
 
 /* Navbar */
 .nav {
@@ -226,7 +258,6 @@ html{
 
 /* Full */
 .nav-full {
-
     border-top: solid 1px var(--darker);
 
     background-color: var(--background);
@@ -235,12 +266,18 @@ html{
     left: 0;
     z-index: 1100; */
 
-    height: 200vh;
+    /* height: 200vh; */
     width: 100%;
     padding: 30px;
 
-    display: block;
-    
+    display: none;
+
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    overflow-y: scroll;
+    scrollbar-color: none;
+    z-index: 10000;
 }
 
 .benjamin{
@@ -409,6 +446,25 @@ div[class^="grid-"]{
 .grid-3{
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+/* Tables */
+table, th, td{
+    table-layout: fixed;
+    border: 1px solid var(--text);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.download-button{
+    display: block;
+    text-align: center;
+    padding: 15pt;
+    border-radius: 11pt;
+    width: 100%;
+    background-color: var(--text);
+    color: var(--background);
+}
+
 
 /* pixel */
 #pixel{
