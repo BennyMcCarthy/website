@@ -13,7 +13,7 @@
 
     width: 100%;
     aspect-ratio: 16 / 9;
-    background-image: url(./dear-mr-earl/station.jpg);
+    background-image: url(/dear-mr-earl/station.png);
     background-size: cover;
 
     position: relative;
