@@ -7,12 +7,16 @@
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="/style/test.css">
+
+    <!-- Javascript -->
+    <script src="/script/nav-show.js"></script>
 
     <!-- Locomotive Scroll -->
-    <script src="https:./cdn.jsdelivr.net/npm/locomotive-scroll/bundled/locomotive-scroll.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/bundled/locomotive-scroll.min.js"></script>
     <script>
         const locomotiveScroll = new LocomotiveScroll();
-    </script>
+    </script> -->
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,15 +26,103 @@
 
 <body>
 
-    <style>
-        /* Flash bang prevention */
-        body{
-            background-color: black;
-        }
-    </style>
+    <div class="nav-full-wrapper" id="navFull">
+
+        <div class="navback" onclick="navHide()"></div>
+
+        <div class="nav-full">
+            <div class="benjamin">
+                <a href="">benjamin.co.nz</a>
+            </div>
+
+            <div class="broken">
+                <p>its broken soz lol</p>
+                <p>view this page on a wider screen instead. i js needed to get this website up quick</p>
+            </div>
+
+            <div class="nav-full-grid">
+
+                    <div class="nav-full-grid-child">
+                        <ul>
+                            <strong>Index</strong>
+                            <li><a href="/portfolio/">Portfolio</a></li>
+                            <li><a href="/about/">About</a></li>
+                            <li><a href="/Contact/">Contact</a></li>
+                        </ul>
+
+                        <ul>
+                            <strong>Paint</strong>
+                            <li><a href="/dear-mr-earl/">Dear Mr Earl</a></li>
+                            <li><a href="/mpg/">MPG</a></li>
+                            <li><a href="/aotearoa/">Aotearoa</a></li>
+                            <li><a href="/optical-effects/">Optical Effects</a></li>
+                            <li><a href="/personals/">Personals</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-full-grid-child">
+                        <ul>
+                            <strong>Pixel</strong>
+                            <li><a href="/christmas-mod/">Ben's Christmas Mod</a></li>
+                            <li><a href="/bens-bundles/">Ben's Bundles</a></li>
+                            <li><a href="/bens-container-plaques/">Ben's container-plaques</a></li>
+                            <li><a href="/team-disco/">Team Disco</a></li>
+                        </ul>
+
+                        <ul>
+                            <strong>Tutorials</strong>
+                            <li><a href="/photoshop-brushes/">Photoshop Brushes</a></li>
+                            <li><a href="/falloff/">Falloff</a></li>
+                            <li><a href="/pixel-art-tips/">Pixel Art Tips</a></li>
+                            <li><a href="/everything-i-know/">Everying I Know</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-full-grid-child">
+                        <img src="/dear-mr-earl/card.png">
+                        <!-- <img id="mpg" src="/mpg/mpg_title.jpg">
+                        <img id="christmas-mod" src="/christmas-mod/card.png" id="pixel">
+                        <img id="aotearoa" src="/aotearoa/cover.webp">
+                        <img id="optical-effects" src="/optical-effects/R1P2.jpg">
+                        <img id="items" src="/items/card.png">
+                        <img id="container-plaques" src="/container-plaques/card.png" id="pixel">
+                        <img id="3d" src="/minecraft-trailers/card.png">
+                        <img id="bundles" src="/bundles/card.png">
+                        <img id="tutorials" src="/about/crt.jpg">
+                        <img id="disco" src="/disco/card2.png"> -->
+                    </div>
+                
+            </div>
+        </div>
+
+        <div class="nav-full-clickoff" onclick="navHide()">
+            <span class="material-symbols-outlined">close</span>
+        </div>
+
+    </div>
 
 
-    <div class="page">
+    <div class="nav">
+        <div class="nav-wide">
+            <div class="nav-left">
+                <a href="/">benjamin.co.nz</a>
+            </div>
+            
+            <div class="nav-middle">
+                <a href="/portfolio/">Portfolio</a>
+                <a href="javascript:void(0)" onclick="navShow()">All work</a>
+                <a href="/resources/">Resources</a>
+            </div>
+
+            <div class="nav-right">
+                <a href="/about/">About</a>
+                <a href="/contact/">Contact</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="paragraph">
 
         <div class="linkback-title">
             <div class="title">
@@ -39,13 +131,6 @@
             </div>
         </div>
         
-        <div class="linkback">
-            <a href="/">home</a>
-            <p>/</p>
-            <a href="/paint">paint</a>
-            <p>/</p>
-            <a href="/optical-effects/">optical-effects</a>
-        </div>
 
         <p>My eyes have problems that can cause cool looking effects, so I decided to make them the theme for my <span class="tooltip">
                 NCEA
@@ -114,13 +199,6 @@
         <br>
         <br>
         <br>
-        <div class="linkback">
-            <a href="/">home</a>
-            <p>/</p>
-            <a href="/paint">paint</a>
-            <p>/</p>
-            <a href="/optical-effects/">optical-effects</a>
-        </div>
         <br>
         <br>
 

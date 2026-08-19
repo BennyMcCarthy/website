@@ -257,31 +257,45 @@ html{
 
 
 /* Full */
-.nav-full {
-    border-top: solid 1px var(--darker);
-
-    background-color: var(--background);
-    /* position: fixed;
-    top: 0px;
-    left: 0;
-    z-index: 1100; */
-
-    /* height: 200vh; */
-    width: 100%;
-    padding: 30px;
-
-    display: none;
+.nav-full-wrapper{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 
     position: fixed;
     top: 0px;
     bottom: 0;
-    overflow-y: scroll;
-    scrollbar-color: none;
     z-index: 10000;
+    width: 100%;
+
+    display: none;
 }
 
+.nav-full{
+    background-color: var(--background);
+    height: fit-content;
+    padding: 30px;
+    overflow-y: scroll;
+    border-bottom: 2px solid var(--darker);
+}
+
+.nav-full-clickoff{
+    background-color: rgba(0, 0, 0, 0.50);
+    height: 100%;
+    cursor: not-allowed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.navback{
+    background-color: var(--background);
+    height: 40px;
+    cursor: not-allowed;
+}
+
+
 .benjamin{
-    margin-top: 6%;
+    margin-top: 100px;
     margin-bottom: 3.5%;
     container-type: inline-size;
 }
@@ -289,35 +303,43 @@ html{
     font-size: 13.5cqw;
 }
 
-
-
-.nav-full-flexbox{
-    display: flex;
-    /* flex-direction: column; */
-    /* background-color: lime; */
+.nav-full-grid{
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.nav-full-links{
-    /* background-color: red; */
-    flex-grow: 1;
-}
 
-.nav-full-img{
-    /* position: relative; */
-    /* width: 25%; */
-    /* top: 0; */
-    /* left: 0; */
-    width: 37%;
-    margin-left: 25px;
-}
-
-.nav-full-img *{
+.nav-full img{
     object-fit: cover;
-    height: 100%;
-    width: 100%;
+    height: 27vw;
+    padding-left: 2vw;
+    /* width: 100%; */
     /* aspect-ratio: 1 / 1; */
 }
 
+.nav-full ul{
+    font-size: 30pt;
+    line-height: 45pt;
+    /* background-color: red; */
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+@media (max-width: 1640px){
+    .nav-full ul{
+        font-size: 20pt;
+    }
+}
+.broken{
+    display: none;
+}
+@media (max-width: 1180px){
+    .broken{
+        display: block;
+        background-color: red;
+    }
+}
 
 .nav-full li{
     list-style: none;

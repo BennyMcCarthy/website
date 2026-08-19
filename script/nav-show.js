@@ -5,5 +5,3 @@ function navShow() {
 function navHide() {
   document.getElementById("navFull").style.display = "none";
 }
-
-onkeydown = (event) => { }
